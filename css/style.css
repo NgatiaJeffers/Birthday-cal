@@ -26,6 +26,11 @@ body {
     font-family: "Gotham Rounded", Gotham Rounded;
 }
 
+.description {
+    font-size: 14px;
+    text-align: center;
+}
+
 #your-name {
     color: #3983c5;
 }
@@ -61,6 +66,7 @@ body {
 .gender {
     margin-left: 5em;
     margin-top: 1em;
+    font-family: "Gotham Rounded", Gotham Rounded;
 }
 
 .h1 {
