@@ -34,7 +34,7 @@ body {
     align-items: center;
     justify-content: center;
     display: flex;
-    height: 500px;
+    height: 600px;
     border-radius: 10px;
 }
 
@@ -55,15 +55,24 @@ body {
 
 
 .day {
-    margin-left: 7em;
+    margin-left: 5em;
+}
+
+.gender {
+    margin-left: 5em;
+    margin-top: 1em;
 }
 
 .h1 {
     margin-top: 2em;
 }
 
-label, input {
+label, input[type="text"] {
     font-family: "Gotham Rounded", Gotham Rounded;
+}
+
+input[class="form-control"], select[class="custom-select"], option[value=""] {
+    width: 150px;
 }
 
 
