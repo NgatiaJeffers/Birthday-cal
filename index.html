@@ -18,22 +18,22 @@
             and calculates the day of the week they were
             <br>
             born and then depending on their gender outputs their Akan Name. </h3>
-        <p id="your-name">Your Name Is: </p>
+        <p id="your-name">Your Name Is:&nbsp;</p>
     <form action="#" class="form">
         <div class="panel panel-default" >
             <div class="panel-heading">
                 <div class="row">
                     <div class="col-md-3 col-sm-3 col-xs-3 day">
                         <label for="day">Enter Your Day</label>
-                        <input type="text" class="form-control" id="day" placeholder="DD" />
+                        <input type="text" maxlength="2" class="form-control" id="day" placeholder="DD" value="" />
                     </div>
                     <div class="col-md-3 col-sm-3 col-xs-3 month">
                         <label for="month">Enter Your Month</label>
-                        <input type="text" class="form-control" id="month" placeholder="MM" />
+                        <input type="text" maxlength="2" class="form-control" id="month" placeholder="MM" />
                      </div>
-                     <div class="col-md-3 col-sm-3 col-xs-3 month">
+                     <div class="col-md-3 col-sm-3 col-xs-3 year">
                         <label for="month">Enter Your year</label>
-                        <input type="text" class="form-control" id="year" placeholder="YY" />
+                        <input type="text" maxlength="4" class="form-control" id="year" placeholder="YY" />
                      </div>
                      <div class="col-md-3 col-sm-3 col-xs-3 gender">
                         <label for="gender">Gender</label>
@@ -47,7 +47,7 @@
             </div>
         </div>
     </form>
-    <button type="button" class="btn btn-info" onclick="calc()">Get Your Name</button>
+    <button id="button" onclick="calc()" type="button" class="btn btn-info">Get Your Name</button>
 </div>
 
 
