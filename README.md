@@ -27,7 +27,7 @@ I used JavaScript Functionality, logical operators, control flows and Arrays
 
 ## Support and contact details
 
-JeffDev Phone: +254 713 070 350
+JeffDev GitHub Acc: https://github.com/NgatiaJeffers
 JeffDev Email: jeffersongakuya@gmail.com
 
 ### License

@@ -42,39 +42,5 @@ function calc() {
 
     } else {}
 
-}
  
-
-// function getTheDay(aText)
-
-// {
-
-// myDays=
-
-// ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"]
-
-// myDate=new Date(eval('"'+aText.value+'"'))
-
-// document.form1.textDay.value=myDays[myDate.getDay()]
-
-// }
-
-
-// var ysel = document.getElementsByName("year")[0],
-// msel = document.getElementsByName("month")[0],
-// dsel = document.getElementsByName("day")[0];
-// for (var i = 2018; i >= 1900; i--) {
-//     var opt = new Option();
-//     opt.value = opt.text = i;
-//     ysel.add(opt);
-// }
-// ysel.addEventListener("change", validate_date);
-// msel.addEventListener("change", validate_date);
-// setInitialDays();
-// jQuery("form.dayname-form").submit(function (event) {
-//     var fulldate = jQuery(this).find("#month").val()+"/"+jQuery(this).find("#day").val()+"/"+jQuery(this).find("#year").val();
-//     console.log(fulldate);
-    
-//     jQuery(".dayname span").html(DayName(fulldate,jQuery(this).find("#gender").val()));		
-//     event.preventDefault();
-// });
+}
