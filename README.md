@@ -23,7 +23,7 @@ to the day in the week they were born. Here are Ghanian day names.
 - Web App
   The website to run needs only a web browser no need of a server, if you want to run off line open with a live server in ua text editor eg. Visual Studio Code or Atom.
 
-  [Web Application Image](<img/birthdaycal.png)
+  [Web Application Image](img/birthdaycal.png)
 
 ## Known Bugs
 
