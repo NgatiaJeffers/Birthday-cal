@@ -5,16 +5,14 @@ var days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday"];
 
 function calc() {
     event.preventDefault();
-    var days = document.getElementById('day');
+    var day = document.getElementById('day');
     var year = document.getElementById('year');
     var month = document.getElementById('month');
     var gender = document.getElementById('gender').value;
     date = new Date(eval(day).value);
-    // var days = dates.getDay();
 
     function getTheDay() {
         date = new Date(eval(day).value);
-        // return days[myDate.getDay()]
     }
 
     // Invalid Day
@@ -33,11 +31,9 @@ function calc() {
     }
 
     if (gender === 'male'){ 
-        // alert("Your name is: " + males[date.getDay()]);
         document.getElementById('your-name').innerHTML = ("Your Name Is: " + males[date.getDay()] + " . ");
 
     } else if (gender === 'female') {
-        // alert("Your name is: " + females[date.getDay()]);
         document.getElementById('your-name').innerHTML = ("Your Name Is: " + females[date.getDay()] + " . ");
 
     } else {}

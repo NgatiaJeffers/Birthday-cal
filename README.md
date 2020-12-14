@@ -1,6 +1,6 @@
 # Birthday-cal
 
-#### Its a web application calculating the day and the month one was born, 4th of Dec 2020
+#### Its a web application calculating the day one was born, 4th of Dec 2020
 
 #### By **Jefferson Gakuya**
 
@@ -15,7 +15,7 @@ Birthday calculator tell a person the day and the month he or she was born.
 - Bootstrap for layout
 - A browser to display the website
 - Web App
-  The website to run needs only a web browserm no need of a server, if you want to run off line open with a live server in ua text editor eg. Visual Studio Code or Atom.
+  The website to run needs only a web browser no need of a server, if you want to run off line open with a live server in ua text editor eg. Visual Studio Code or Atom.
 
 ## Known Bugs
 
@@ -35,4 +35,4 @@ JeffDev Email: jeffersongakuya@gmail.com
 No Licence issued. modify it at your own cost
 Copyright (c) 2020 **Birthday CAl**
 
-Licensed under the [MIT license](LICENSE).
+Licensed under the [JeffDev License](LICENSE).
