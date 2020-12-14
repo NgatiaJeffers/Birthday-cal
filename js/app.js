@@ -9,11 +9,11 @@ function calc() {
     var year = document.getElementById('year');
     var month = document.getElementById('month');
     var gender = document.getElementById('gender').value;
-    date = new Date(eval(year).value);
+    date = new Date(eval(day).value);
     // var days = dates.getDay();
 
     function getTheDay() {
-        date = new Date(eval(year).value);
+        date = new Date(eval(day).value);
         // return days[myDate.getDay()]
     }
 
@@ -33,11 +33,11 @@ function calc() {
     }
 
     if (gender === 'male'){ 
-        alert("Your name is: " + males[date.getDay()]);
+        // alert("Your name is: " + males[date.getDay()]);
         document.getElementById('your-name').innerHTML = ("Your Name Is: " + males[date.getDay()] + " . ");
 
     } else if (gender === 'female') {
-        alert("Your name is: " + females[date.getDay()]);
+        // alert("Your name is: " + females[date.getDay()]);
         document.getElementById('your-name').innerHTML = ("Your Name Is: " + females[date.getDay()] + " . ");
 
     } else {}
