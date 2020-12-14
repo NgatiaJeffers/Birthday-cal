@@ -6,7 +6,13 @@
 
 ## Description
 
-Birthday calculator tell a person the day and the month he or she was born.
+This is a web application that takes a user's birthday,
+calculates the day of the week they were born and the depending
+on there gender out puts there akan name.
+
+Akan names are derived from Ghanian culture. Frequently in Ghana,
+children are given their first name as a day name which corresponds
+to the day in the week they were born. Here are Ghanian day names.
 
 ## Setup/Installation Requirements
 
